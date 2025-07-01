@@ -198,13 +198,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <style>
     :root {
-      --primary-green: #1e8449;
-      --secondary-green: #2ecc71;
-      --light-green: #abebc6;
-      --very-light-green: #e8f8f5;
-      --dark-green: #186a3b;
-      --white: #ffffff;
-    }
+        --primary-blue: #1e4e84;
+        --secondary-blue: #2e86c1;
+        --light-blue: #aed6f1;
+        --very-light-blue:rgb(213, 238, 247);
+        --dark-blue:  #00008B;
+        --white: #ffffff;
+      }
 
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -213,7 +213,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
     }
     
     .bg-custom-green {
-      background-color: #1e8449;
+      background-color: #1e4e84;
     }
 
     .bg-custom-light {
@@ -221,22 +221,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
     }
 
     .btn-custom-green {
-      background-color: #1e8449;
+      background-color:  #2e86c1;
       color: white;
       border: none;
-      box-shadow: 0 4px 6px rgba(126, 217, 87, 0.2);
+      box-shadow: 0 4px 6px rgb(213, 238, 247);
       transition: all 0.3s;
     }
 
     .btn-custom-green:hover {
-      background-color: #1e8449;
+      background-color:  #2e86c1;
       color: white;
       transform: translateY(-2px);
       box-shadow: 0 6px 8px rgba(126, 217, 87, 0.3);
     }
 
     .navbar {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
 
@@ -255,7 +255,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
       }
 
       .nav-link:hover {
-        color: var(--light-green);
+        color: var(--light-blue);
         transform: translateY(-2px);
       }
       
@@ -284,7 +284,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
       .user-avatar {
         width: 32px;
         height: 32px;
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -302,7 +302,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
     }
 
     .card-header-custom {
-      background-color: #1e8449;
+      background-color: #2e86c1;
       color: white;
       border-bottom: none;
       padding: 15px 20px;
@@ -310,8 +310,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['pay'])) {
 
     footer {
       padding: 50px 0 20px;
-      background-color: var(--very-light-green);
-      border-top: 5px solid var(--secondary-green);
+      background-color: var(--very-light-blue);
+      border-top: 5px solid var(--secondary-blue);
     }
 
     .bank-details {

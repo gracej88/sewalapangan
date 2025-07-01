@@ -189,7 +189,7 @@ if (empty($booking_history)) {
         }
         
         .navbar {
-            background-color: #1e8449;
+            background-color: #aed6f1;
         }
         
         .navbar-brand {
@@ -216,7 +216,7 @@ if (empty($booking_history)) {
         }
         
         .header-banner {
-            background-color: #2ecc71;
+            background-color: #2e86c1;
             color: white;
             padding: 2rem 0;
         }
@@ -256,7 +256,7 @@ if (empty($booking_history)) {
         }
         
         .badge-confirmed {
-            background-color: #28a745;
+            background-color: #2e86c1;
             color: white;
         }
         

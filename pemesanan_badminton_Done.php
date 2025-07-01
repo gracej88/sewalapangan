@@ -638,45 +638,39 @@ function formatRupiah($angka) {
     </div>
 
     <footer>
-      <div id="kontak" class="container">
-        <div class="row">
-          <div class="col-lg-4 mb-4">
-            <h5>SPORTFIELD</h5>
-            <p>
-              Platform booking lapangan olahraga terbaik di Indonesia dengan
-              berbagai fasilitas berkualitas dan harga terjangkau.
-            </p>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <h5>Kontak Kami</h5>
-            <p>
-              <i class="fas fa-map-marker-alt me-2"></i> Jl. Olahraga No. 123,
-              Jakarta
-            </p>
-            <p><i class="fas fa-phone-alt me-2"></i> 0812-3456-7890</p>
-            <p><i class="fas fa-envelope me-2"></i> info@sportfield.com</p>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <h5>Ikuti Kami</h5>
-            <div class="mt-3">
-              <a href="#" class="social-icon"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="social-icon"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="social-icon"
-                ><i class="fab fa-whatsapp"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="copyright text-center">
-          <p>© 2025 SportField. Hak Cipta Dilindungi.</p>
+  <div id="kontak" class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <h5>PB SAMUDRA</h5>
+        <p>
+          Platform booking lapangan olahraga terbaik di Indonesia dengan
+          berbagai fasilitas berkualitas dan harga terjangkau.
+        </p>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <h5>Kontak Kami</h5>
+        <p>
+          <i class="fas fa-map-marker-alt me-2"></i> Jalan Letda Sujono Baru 1 no.117, Medan
+        </p>
+        <p><i class="fas fa-phone-alt me-2"></i> 0823-8740-8888</p>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <h5>Ikuti Kami</h5>
+        <div class="mt-3">
+          <a href="https://www.instagram.com/samudra.badminton?igsh=ZTFoczZnMmRlcmNn" class="social-icon" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/6282387408888" class="social-icon" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
         </div>
       </div>
-    </footer>
+    </div>
+    <div class="copyright text-center">
+      <p>© 2025 PB SAMUDRA. Hak Cipta Dilindungi.</p>
+    </div>
+  </div>
+</footer>
 
     <!-- Script Bootstrap untuk menangani dropdown dan lainnya -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

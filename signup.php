@@ -26,9 +26,9 @@ if (isset($_POST['name'], $_POST['email'], $_POST['password'])) {
     <title>Sign Up - Field Booking</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="flex items-center justify-center min-h-screen bg-green-100">
+  <body class="flex items-center justify-center min-h-screen bg-blue-100">
     <div class="bg-white p-8 rounded-2xl shadow-lg w-96">
-      <h2 class="text-2xl font-bold text-green-700 text-center mb-6">
+      <h2 class="text-2xl font-bold text-blue-700 text-center mb-6">
         Sign Up
       </h2>
       <!-- Form Sign Up -->
@@ -42,7 +42,7 @@ if (isset($_POST['name'], $_POST['email'], $_POST['password'])) {
             type="text"
             name="name"
             required
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-400"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-400"
           />
         </div>
         <div class="mb-4">
@@ -51,7 +51,7 @@ if (isset($_POST['name'], $_POST['email'], $_POST['password'])) {
             type="email"
             name="email"
             required
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-400"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-400"
           />
         </div>
         <div class="mb-6">
@@ -60,19 +60,19 @@ if (isset($_POST['name'], $_POST['email'], $_POST['password'])) {
             type="password"
             name="password"
             required
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-400"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-400"
           />
         </div>
         <button
           type="submit"
-          class="w-full bg-green-600 text-white p-3 rounded-lg hover:bg-green-700 transition"
+          class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition"
         >
           Sign Up
         </button>
       </form>
       <div class="text-center mt-4 text-sm">
         Sudah punya akun?
-        <a href="login.php" class="text-green-500 hover:underline">Login</a>
+        <a href="login.php" class="text-blue-500 hover:underline">Login</a>
       </div>
     </div>
   </body>

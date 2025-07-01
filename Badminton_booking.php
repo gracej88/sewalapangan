@@ -164,11 +164,11 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
     />
     <style>
       :root {
-        --primary-green: #1e8449;
-        --secondary-green: #2ecc71;
-        --light-green: #abebc6;
-        --very-light-green: #e8f8f5;
-        --dark-green: #186a3b;
+        --primary-blue: #1e4e84;
+        --secondary-blue: #2e86c1;
+        --light-blue: #aed6f1;
+        --very-light-blue:rgb(213, 238, 247);
+        --dark-blue:  #00008B;
         --white: #ffffff;
       }
 
@@ -179,7 +179,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .navbar {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
 
@@ -198,7 +198,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .nav-link:hover {
-        color: var(--light-green);
+        color: var(--light-blue);
         transform: translateY(-2px);
       }
       
@@ -227,7 +227,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       .user-avatar {
         width: 32px;
         height: 32px;
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -240,8 +240,8 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       .hero-section {
         background: linear-gradient(
           135deg,
-          var(--secondary-green) 0%,
-          var(--primary-green) 100%
+          var(--secondary-blue) 0%,
+          var(--primary-blue) 100%
         );
         text-align: center;
         padding: 70px 0;
@@ -264,7 +264,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
       /* Button Styling */
       .btn-custom-green {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         color: var(--white);
         border: none;
         border-radius: 30px;
@@ -275,7 +275,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .btn-custom-green:hover {
-        background-color: var(--dark-green);
+        background-color: var(--dark-blue);
         transform: translateY(-3px);
         box-shadow: 0 6px 12px rgba(30, 132, 73, 0.4);
         color: var(--white);
@@ -305,20 +305,20 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       .feature-icon {
         width: 70px;
         height: 70px;
-        background-color: var(--very-light-green);
-        border: 2px solid var(--secondary-green);
+        background-color: var(--very-light-blue);
+        border: 2px solid var(--secondary-blue);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-        color: var(--primary-green);
+        color: var(--primary-blue);
         font-size: 1.5rem;
         transition: all 0.3s ease;
       }
 
       .feature-icon:hover {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         color: var(--white);
         transform: scale(1.1);
       }
@@ -341,7 +341,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .card-header-custom {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         color: var(--white);
         border-bottom: none;
         padding: 15px 20px;
@@ -356,16 +356,16 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .calendar-day:hover {
-        background-color: var(--very-light-green);
+        background-color: var(--very-light-blue);
         transform: scale(1.05);
         z-index: 1;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
       .calendar-day.active {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         color: var(--white);
-        border-color: var(--primary-green);
+        border-color: var(--primary-blue);
       }
       
       .calendar-day.selectable {
@@ -388,13 +388,13 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .time-slot.available {
-        border-left: 5px solid var(--primary-green);
-        background-color: var(--very-light-green);
+        border-left: 5px solid var(--primary-blue);
+        background-color: var(--very-light-blue);
         cursor: pointer;
       }
 
       .time-slot.available:hover {
-        background-color: var(--light-green);
+        background-color: var(--light-blue);
       }
 
       .time-slot.booked {
@@ -421,7 +421,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .field-card.selected {
-        border-color: var(--primary-green);
+        border-color: var(--primary-blue);
         box-shadow: 0 5px 15px rgba(30, 132, 73, 0.3);
       }
 
@@ -444,13 +444,13 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
 
       /* Form Styling */
       .form-control:focus {
-        border-color: var(--secondary-green);
+        border-color: var(--secondary-blue);
         box-shadow: 0 0 0 0.25rem rgba(46, 204, 113, 0.25);
       }
 
       /* Badge Styling */
       .badge-custom {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
         color: var(--white);
         font-weight: 500;
         padding: 5px 10px;
@@ -473,7 +473,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       }
 
       .available-indicator {
-        background-color: var(--primary-green);
+        background-color: var(--primary-blue);
       }
 
       .booked-indicator {
@@ -482,7 +482,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
 
       /* Footer */
       footer {
-        background-color: var(--dark-green);
+        background-color: var(--dark-blue);
         color: var(--white);
         padding: 40px 0 20px;
       }
@@ -504,14 +504,14 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       input[type="tel"]:focus,
       input[type="email"]:focus,
       textarea:focus {
-        border-color: var(--secondary-green);
+        border-color: var(--secondary-blue);
         box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.2);
       }
 
       /* Radio Buttons */
       .form-check-input:checked {
-        background-color: var(--primary-green);
-        border-color: var(--primary-green);
+        background-color: var(--primary-blue);
+        border-color: var(--primary-blue);
       }
 
       /* Section Titles */
@@ -519,13 +519,13 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       h3,
       h4,
       h5 {
-        color: var(--primary-green);
+        color: var(--primary-blue);
         font-weight: 600;
       }
 
       /* Step Numbers */
       .step-title {
-        color: var(--primary-green);
+        color: var(--primary-blue);
         font-weight: bold;
       }
 
@@ -542,8 +542,8 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
       
       /* Selected time slot styling */
       .time-slot.selected {
-        background-color: var(--light-green);
-        border: 2px solid var(--primary-green);
+        background-color: var(--light-blue);
+        border: 2px solid var(--primary-blue);
       }
       
       /* Date badge for booked days */
@@ -634,7 +634,7 @@ $selected_field = isset($_GET['field']) ? $_GET['field'] : ($fields[0]['name'] ?
           <a href="#book" class="btn btn-custom-green px-3 py-2">
             <i class="fas fa-calendar-check me-2"></i>Pesan Sekarang</a
           >
-          <a href="frontpage.php" class="btn btn-outline-light px-3 py-2"
+          <a href="frontpagelogin.php" class="btn btn-outline-light px-3 py-2"
             ><i class="fas fa-info-circle me-2"></i>Lihat Lapangan</a
           >
         </div>
